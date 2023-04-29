@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 
 import { Videos, ChannelCard } from './';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
+// eslint-disable-next-line
 import zIndex from '@mui/material/styles/zIndex';
 
 const ChannelDetail = () => {
