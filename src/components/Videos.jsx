@@ -12,7 +12,6 @@ const Videos = ({ videos, direction }) => {
       gap={2}
     >
       {videos.map((item, idx) => {
-        console.log(item);
         if (item.id.videoId || item.id.channelId) {
           return (
             <Box key={idx}>
